@@ -1,7 +1,6 @@
 body{
    margin: 0px;
    overflow-x: hidden;
-   
 }
 
 .header{
@@ -145,4 +144,51 @@ img {max-width: 100%;}
     font-weight: 900;
     align-self: end;
     
+}
+
+/*News letter sign up*/
+.msg-contain{
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    padding: 20px;
+    align-items: center;
+}
+
+.msg-box{
+    display: flex;
+    background-color: #432616;
+    color: wheat;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    column-gap: 70px;
+
+    
+}
+.msg-head{
+    margin: 5px;
+    padding: 0px;
+}
+.msg-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.msg-left{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+}
+.signup{
+    background-color: #432616;
+    border:  2px solid wheat;
+    border-radius: 5px;
+    color: wheat;
+    word-wrap: none;
+    padding: 6px 18px;
+    width: fit-content;
 }
