@@ -1,5 +1,7 @@
 body{
-   margin: 0;
+   margin: 0px;
+   overflow-x: hidden;
+   
 }
 
 .header{
@@ -55,6 +57,7 @@ a{
     padding: 0;
     margin: 0;
     padding-left: 50px;
+    padding-bottom: 10px;
 }
 .hero-para{
     background-color: #556f44;
@@ -94,11 +97,13 @@ img {max-width: 100%;}
 }
 .info-pics-container{
     background-color: wheat;
-    padding: 12px;
     text-align: center;
+    padding: 30px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
     
 }
 .info-pics-container .info{
@@ -115,5 +120,29 @@ img {max-width: 100%;}
     width: auto;
     border-radius: 10%;
     border: 4px wheat;
-    padding: 8px
+    padding: 8px;
+}
+
+
+/*For quote Section*/
+.quote-container{
+    display: flex;
+    padding: 40px;
+    background-color: darkkhaki;
+    align-items: center;
+    flex-direction: column;
+    border-right: 40px solid transparent;
+    
+    
+}
+.inspr-quote{
+    font-size: 42px;
+    font-style: italic;
+    padding: 42px;
+}
+.quotee{
+    font-size: 20px;
+    font-weight: 900;
+    align-self: end;
+    
 }
