@@ -192,3 +192,10 @@ img {max-width: 100%;}
     padding: 6px 18px;
     width: fit-content;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #556f44;
+    color: wheat;
+    padding: 20px;
+}
