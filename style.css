@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 16px;    
+    padding-bottom: 0px;
 }
 .header .left{
     display: flex;
@@ -69,6 +70,8 @@ a{
 .hero .right{
     background-color: #556f44;
     padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 25px;
 }
 img {max-width: 100%;}
 
