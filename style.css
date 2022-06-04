@@ -2,7 +2,6 @@
     background-color: #556f44;
 }
 
-
 .header{
     background-color: #556f44;
     color: whitesmoke;
@@ -43,3 +42,24 @@ a{
     text-decoration: none;
     
 }
+.hero{
+    display: flex;
+    color: white;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-head{
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
+}
+.hero-para{
+    padding: 0;
+    margin: 0;
+    padding-left: 50px;
+}
+.hero .right{
+    padding: 50px;
+}
+img {max-width: 100%;}
